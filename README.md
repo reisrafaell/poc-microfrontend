@@ -1,7 +1,7 @@
 # Instalação
 
 É necessario instalar a node modules em cada módulo usando o segunte comando:
-$ cd footer && npm install && cd .. && cd main-page && npm install && cd .. && cd single-spa && npm install
+ cd footer && npm install && cd .. && cd main-page && npm install && cd .. && cd single-spa && npm install
 
 # Build
 
