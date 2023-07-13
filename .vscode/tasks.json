@@ -11,6 +11,17 @@
       },
       "command": "cd single-spa && node start-all.js",
       "problemMatcher": []
-    }   
+    },
+    {
+      "label": "Install Project",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd single-spa && node install.js",
+      "problemMatcher": []
+    }     
   ]
 }
