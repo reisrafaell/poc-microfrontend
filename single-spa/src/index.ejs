@@ -36,7 +36,8 @@
         "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
         "styled-components": "https://cdn.jsdelivr.net/npm/styled-components@5.3.0/dist/styled-components.min.js",
-        "react-router-dom": "https://cdn.jsdelivr.net/npm/react-router-dom@6.0.2/dist/react-router-dom.min.js"
+        "react-router-dom": "https://cdn.jsdelivr.net/npm/react-router-dom@6.0.2/dist/react-router-dom.min.js",
+        "angular": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"
       }
     }
   </script>
@@ -52,7 +53,8 @@
       "imports": {
         "@poc/root-config": "//localhost:9000/poc-root-config.js",
         "@poc/main-page": "//localhost:8000/poc-main-page.js",
-        "@poc/footer": "//localhost:8001/poc-footer.js"
+        "@poc/footer": "//localhost:8001/poc-footer.js",
+        "@new-header": "//localhost:8008/main.js"
       }
     }
   </script>
@@ -62,7 +64,7 @@
     If you need to support Angular applications, uncomment the script tag below to ensure only one instance of ZoneJS is loaded
     Learn more about why at https://single-spa.js.org/docs/ecosystem-angular/#zonejs
   -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
   <% if (isLocal) { %>
