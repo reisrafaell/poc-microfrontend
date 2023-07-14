@@ -1,0 +1,15 @@
+<single-spa-router>
+  <application name="@new-header"></application>
+
+  <main>
+    <route path="/" exact>
+      <application name="@poc/main-page"></application>
+    </route>
+
+    <route path="/header">
+      <application name="@new-header"></application>
+    </route>
+  </main>
+  <application name="@poc/footer"></application>
+
+</single-spa-router>

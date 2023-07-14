@@ -41,6 +41,66 @@
       }
     }
   </script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+      list-style: none !important;
+      outline: none;
+    }
+
+    html {
+      font-size: 62.5%;
+    }
+
+    body,
+    html {
+      background-color: #fff;
+      color: #000;
+    }
+
+    body {
+      font: normal 1.6rem "DM Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    main {
+      display: flex;
+      flex: 1 1 auto;
+      width: 100%;
+      padding: 1.6rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      main {
+        padding: 1.6rem 4.8rem;
+      }
+    }
+
+    main > div {
+      display: flex;
+      max-width: 124.8rem;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      h1 {
+        font-size: 3.3rem;
+      }
+    }
+  </style>
   
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
 
@@ -54,7 +114,8 @@
         "@poc/root-config": "//localhost:9000/poc-root-config.js",
         "@poc/main-page": "//localhost:8000/poc-main-page.js",
         "@poc/footer": "//localhost:8001/poc-footer.js",
-        "@new-header": "//localhost:8008/main.js"
+        "@new-header": "//localhost:8008/main.js",
+        "@poc/util-ui": "//localhost:8510/poc-util-ui.js"
       }
     }
   </script>
