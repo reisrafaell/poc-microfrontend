@@ -5,7 +5,7 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 78vh;
   background-color: #d5d5d3;
 
   form {
